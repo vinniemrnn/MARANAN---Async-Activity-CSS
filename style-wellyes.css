@@ -1,0 +1,65 @@
+﻿<style>
+h1 {
+    color: #54433d;
+    font-size: 30px;
+    font-family: 'Century Gothic', serif;
+    text-align: center;
+    background-color: floralwhite;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    border: 3px dotted #54433d;
+    color: #543f38;
+}
+
+body {
+    background-color: floralwhite;
+}
+
+
+.article:nth-child(even) {
+    background-color: #fcfffe;
+    font-family: Arial;
+}
+
+.article:nth-child(odd) {
+    font-family: Verdana;
+}
+.tag {
+    background-color: #54433d;
+    color: floralwhite;
+    padding: 2px 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+    .tag:nth-child(odd) {
+        background-color: #806055
+    }
+#blog-header {
+    background-color: #cae8d2;
+    color: #26211d;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Century Gothic', sans-serif;
+    border: 3px dotted #54433d;
+    margin-bottom: 20px;
+}
+
+.article[data-author="Alex"] {
+    background-color: #e6fff3;
+    border: 3px dashed #54433d
+}
+
+#blog {
+    padding: 2px 5px;
+    margin: 2px 2px 2px 2px;
+    border-radius: 20px;
+    display: -moz-groupbox;
+}
+    </style >
+
